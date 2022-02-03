@@ -45,7 +45,7 @@ type Props = {
     textColor?: string,
 };
 
-const DashedCircularIndicator = ({
+const CircularProgressBar = ({
     maxValue,
     selectedValue,
     radius,
@@ -149,7 +149,7 @@ const DashedCircularIndicator = ({
     );
 };
 
-DashedCircularIndicator.defaultProps = {
+CircularProgressBar.defaultProps = {
     maxValue: MAX_VALUE,
     selectedValue: 0,
     radius: DEFAULT_RADIUS,
@@ -166,4 +166,4 @@ DashedCircularIndicator.defaultProps = {
     initialAngularDisplacement: 0,
 };
 
-export default DashedCircularIndicator;
+export default CircularProgressBar;
