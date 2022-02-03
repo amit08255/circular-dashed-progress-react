@@ -10,7 +10,7 @@ This is zero dependency dashed circular progress bar component in React. It gene
 
 
 ```tsx
-import { DashedCircularIndicator } from "rn-dashed-circular-indicator";
+import DashedCircularIndicator from "rn-dashed-circular-indicator";
 
 <DashedCircularIndicator selectedValue={8} />
 
