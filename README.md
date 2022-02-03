@@ -37,7 +37,6 @@ import { DashedCircularIndicator } from "rn-dashed-circular-indicator";
     activeStrokeColor='#cc6633'
     withGradient
     anticlockwise
-    containerStyle={{ padding: 0 }}
 />
 ```
 
